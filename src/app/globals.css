@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Female theme (default) — warm rose & gold */
+  --bg-soft: #fff7f9;
+  --bg-mid: #fde8ee;
+  --accent-300: #f3a6c0;
+  --accent-400: #e85d8a;
+  --accent-500: #d8447a;
+  --accent-600: #c23f6b;
+  --secondary: #d4af6a;
+  --accent-glow: rgba(216, 68, 122, 0.35);
+}
+
+.theme-male {
+  /* Male theme — cool steel & slate blue */
+  --bg-soft: #f4f8fb;
+  --bg-mid: #e2edf5;
+  --accent-300: #8fc1e0;
+  --accent-400: #4c8fd1;
+  --accent-500: #326fae;
+  --accent-600: #285a8d;
+  --secondary: #9aa7b4;
+  --accent-glow: rgba(50, 111, 174, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--accent-300);
+  color: #2b2530;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
