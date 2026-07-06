@@ -12,14 +12,14 @@ export default function TerminalPage() {
       <div className="relative z-10 w-full flex flex-col items-center gap-6">
         <div className="text-center">
           <h1 className="font-mono text-green-300 text-lg sm:text-xl tracking-widest">
-            VISUAL TERMINAL SIMULATION
+            BEAUTY TERMINAL 
           </h1>
           <p className="text-green-500/50 text-xs font-mono mt-1">
-            Performs no real actions. For educational video recording purposes only.
+            Prohibited for normal user. 
           </p>
-          <p className="text-green-500/30 text-[11px] font-mono mt-1">
+          {/* <p className="text-green-500/30 text-[11px] font-mono mt-1">
             Type a number for a notice, or any other word for the stats view.
-          </p>
+          </p> */}
         </div>
         <TerminalProp />
       </div>
