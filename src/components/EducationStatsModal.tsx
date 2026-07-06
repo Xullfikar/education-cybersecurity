@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { GraduationCap, X } from "lucide-react";
 
 const DISCLAIMER_TEXT =
-  "This does not contain any cyber attack, for visual education purposes only.";
+  "the number of malware successfully infected";
 
 const BAR_COUNT = 14;
 
@@ -73,11 +73,11 @@ export default function EducationStatsModal({
             <div className="flex items-center gap-2 justify-center mb-1">
               <GraduationCap size={18} className="text-green-400" />
               <p className="text-green-400/70 text-[11px] tracking-[0.2em] uppercase">
-                Awareness Campaign
+                XULL DASHBOARD
               </p>
             </div>
             <p className="text-center text-green-300/90 text-sm mb-4">
-              Total People Educated
+              Total People Infected
             </p>
 
             {/* Animated counter */}
@@ -97,7 +97,7 @@ export default function EducationStatsModal({
               ))}
             </div>
             <p className="text-center text-green-500/40 text-[11px] mt-2">
-              Simulated growth — updates every second
+              Simulated growth
             </p>
 
             <div className="mt-5 pt-4 border-t border-green-500/15 text-center">

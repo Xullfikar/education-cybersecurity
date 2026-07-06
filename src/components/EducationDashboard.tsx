@@ -62,11 +62,10 @@ export default function EducationDashboard() {
       </div>
 
       <h1 className="font-display italic text-xl sm:text-2xl text-slate-800">
-        Awareness Education Dashboard
+        Download Application
       </h1>
       <p className="text-slate-500 text-xs mt-2 max-w-xs mx-auto">
-        A short simulated walkthrough covering ransomware and fake endorsement
-        app awareness.
+        Applications can be downloaded from various sources, but not all of them are safe. This walkthrough will help you understand the risks associated with downloading applications and how to identify safe sources.
       </p>
 
       <div className="mt-8">
@@ -82,7 +81,7 @@ export default function EducationDashboard() {
                 onClick={handleStart}
                 className="px-8 py-3 rounded-full bg-slate-800 hover:bg-slate-700 text-white text-sm font-semibold tracking-wide transition-colors"
               >
-                Start Education
+                Start Download
               </button>
             </motion.div>
           )}
@@ -124,12 +123,11 @@ export default function EducationDashboard() {
                 <CheckCircle2 size={30} />
               </span>
               <p className="font-display italic text-lg text-slate-800 flex items-center gap-1.5">
-                You have successfully completed the education
+                You have successfully completed the download
                 <Sparkles size={16} className="text-slate-500" />
               </p>
               <p className="text-slate-500 text-xs max-w-xs">
-                Thanks for going through this awareness walkthrough. Stay alert
-                for fake endorsement apps and unexpected download prompts.
+                Congratulations! You have completed the download process. You are now better equipped to identify safe sources for downloading applications and avoid potential risks.
               </p>
               <button
                 onClick={handleReset}

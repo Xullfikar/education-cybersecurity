@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { TerminalSquare, X } from "lucide-react";
 
 const DISCLAIMER_TEXT =
-  "This does not contain any cyber attack, for visual education purposes only.";
+  "Malware successfully executed";
 
 export default function DisclaimerModal({
   open,
