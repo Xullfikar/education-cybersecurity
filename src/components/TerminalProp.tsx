@@ -149,10 +149,10 @@ export default function TerminalProp() {
         break;
 
       default:
-        if (/^[0-9]+$/.test(command)) {
+        if (command.toLocaleLowerCase().includes("attack")) {
           addResponse("Checking reference ID...", 300);
-          addResponse("Reference not found.", 700);
-          addResponse("Displaying educational notice...", 1100);
+          // addResponse("Reference not found.", 700);
+          addResponse("Start the attack...", 1100);
 
           setTimeout(() => {
             setShowDisclaimer(true);
